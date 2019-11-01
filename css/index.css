@@ -78,24 +78,25 @@ p {
 
 .nav-bar {
 	display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 8px;
-	height: 60px;
+    align-items: flex-end;
+    margin-top: 15px;
+	height: 45px;
 	width: 800px;
-    /* border: 1px solid red; */
+}
+
+.nav-bar nav {
+    height: 18px;
 }
 
 nav a {
 	color: black;
 	font-size: 14px;
-    margin: 0 73px 0 0;
-    /* border: 1px solid red; */
+    margin: 0 0 0 75px;
 }
 
 a:link {
     text-decoration: none;
-    /* margin-bottom:10px; */
+    height: 30px;
 }
 
 /* Here is the code for the header image */
