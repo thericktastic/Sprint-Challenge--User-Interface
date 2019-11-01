@@ -348,3 +348,47 @@ footer nav a {
     justify-content: space-around;
     margin: 0 2% 30px 2%;
 }
+
+/* Here is the code for the Blog page, starting with the  */
+
+.container-blog-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.blog-top-container {
+    align-content: center;
+    justify-content: space-around;
+    margin: 0 2% 20px 2%;
+}
+
+
+/* Here is the code for the middle section containing blog entries */
+
+.blog-middle-container {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px dashed black;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.blog-middle-container h5 {
+    font-size: 12px;
+}
+
+.blog-middle-content {
+    /* width: 371px; */
+    align-items: center;
+    padding-bottom: 20px;
+    /* border: 1px solid black; */
+    margin-bottom: 40px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content h2 {
+    margin-top: 10px;
+}
