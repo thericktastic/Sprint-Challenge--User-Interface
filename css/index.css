@@ -116,6 +116,8 @@ a:link {
     padding-bottom: 20px;  
 }
 
+/* Here is the code for the middle section of the Home page */
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -131,6 +133,8 @@ a:link {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+/* Here is the code for the boxes */
 
 .middle-content .boxes .box {
     width: 12.5%;
@@ -253,6 +257,8 @@ a:link {
     justify-content: center;
 }
 
+/* Here is the code for the bottom section */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -284,4 +290,59 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Here is the code for the About page, starting with the About section */
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-top-container {
+    align-content: center;
+    justify-content: space-around;
+    margin: 0 2% 20px 2%;
+}
+
+/* Here is the code for the middle section containing the Strategy, etc boxes */
+
+.about-middle-container {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px dashed black;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.about-middle-content {
+    width: 371px;
+    align-items: center;
+    padding-bottom: 20px;
+    /* border: 1px solid black; */
+    margin-bottom: 40px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content h2 {
+    margin-top: 10px;
+}
+
+/* Here is the code for the Learn More button */
+.learn-button {
+	font-size: 16px;
+	padding: 8px 25px;
+	border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+
+/* Here is the code for the bottom section titled "Let's Work Together" */
+
+.about-bottom-container {
+    align-content: center;
+    justify-content: space-around;
+    margin: 0 2% 30px 2%;
 }
