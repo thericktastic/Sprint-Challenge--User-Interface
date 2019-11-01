@@ -80,7 +80,7 @@ p {
 	display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: 8px;
 	height: 60px;
 	width: 800px;
     /* border: 1px solid red; */
@@ -88,18 +88,19 @@ p {
 
 nav a {
 	color: black;
-	font-size: 13px;
-    margin: 0 80px 0 0;
+	font-size: 14px;
+    margin: 0 73px 0 0;
     /* border: 1px solid red; */
 }
 
 a:link {
-	text-decoration: none;
+    text-decoration: none;
+    /* margin-bottom:10px; */
 }
 
 /* Here is the code for the header image */
 .header-img {
-	margin: 10px 0 10px 0;
+	margin: 20px 0 10px 0;
 }
 
 .top-content {
