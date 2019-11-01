@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* End of Eric Meyer Rest */
+
 * {
     box-sizing: border-box;
 }
@@ -66,15 +68,53 @@ p {
     line-height: 1.4;
 }
 
+/* Width of page */
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/* Here is the code for the Navigation Bar and Lambda Logo */
+
+.nav-bar {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	height: 60px;
+	width: 800px;
+    border: 1px solid red;
+}
+
+nav a {
+	color: black;
+	font-size: 13px;
+    margin: 0 70px 20px 0;
+    /* border: 1px solid red; */
+}
+
+a:link {
+	text-decoration: none;
+}
+
+nav {
+	/* text-align: center;
+	vertical-align: middle; */
+}
+
+/* Here is the code for the header image */
+
+
+
+.nav-logo {
+	vertical-align: middle;
+	margin: 0 0 0 30px;
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 60px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
